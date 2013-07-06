@@ -10,6 +10,9 @@
   <remote  name="greg"
            fetch="git://github.com/greg-pe/" />
 
+  <remote  name="buck"
+           fetch="git://github.com/Buckmarble/" />
+
   <remote name="cm"
            fetch="git://github.com/CyanogenMod/" />
            
