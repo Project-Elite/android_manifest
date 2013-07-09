@@ -53,7 +53,7 @@
   <project path="device/samsung/jfltevzw" name="device_samsung_jfltevzw" remote="pe" revision="mr1.1" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device" />
-  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="pe" revision="jb-mr1" />
+  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="pe" revision="mr1.1" />
   <project path="device/samsung/toro" name="platform_device_samsung_toro" remote="greg" revision="jb-4.2" />
   <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device" />
   <project path="device/samsung/tuna" name="platform_device_samsung_tuna" remote="greg" revision="jb-4.2" />
