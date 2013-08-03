@@ -20,7 +20,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="platform_build" remote="pe" revision="mr1-gcc4.7">
+  <project path="build" name="platform_build" remote="pe" revision="mr2">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -54,6 +54,10 @@
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
+  <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="pe" revision="mr2" />
+  <project path="device/samsung/jfltevzw" name="device_samsung_jfltevzw" remote="pe" revision="mr2" />
+  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="pe" revision="mr2" />
+  <project path="device/samsung/qcom-common" name="device_samsung_qcom-common" remote="pe" revision="mr2" />
   <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device,tuna" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="device/samsung/toro" name="device/samsung/toro" groups="device,tuna" />
